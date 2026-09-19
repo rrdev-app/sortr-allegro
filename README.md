@@ -1,25 +1,26 @@
 # sortR - allegro
 
-Lekkie, bezpłatne rozszerzenie do przeglądarki umożliwiające precyzyjne sortowanie oraz filtrowanie ofert na Allegro.
+Lekkie rozszerzenie wymuszające Twoje preferowane sortowanie na Allegro zamiast domyślnych propozycji serwisu („trafność”).
 
-Projekt rozwijany w ramach studia minimalistycznych narzędzi [RR-DEV](https://rrdev.app).
+Projekt rozwijany w ramach studia [RR-DEV](https://rrdev.app).
 
 ---
 
-### 🚀 Funkcje
-* Błyskawiczne filtrowanie ofert bez zbędnego obciążania przeglądarki.
-* Czysty, nienaruszający prywatności kod (zero zbędnych skryptów śledzących).
-* Pełna kompatybilność z przeglądarkami opartymi na silniku Chromium (Chrome, Brave, Edge, Opera).
+### 🚀 Działanie
+* Automatycznie wymusza wybrane sortowanie (np. od najtańszych) przy każdym wyszukiwaniu i przejściu do kategorii.
+* Blokuje narzucany przez serwis domyślny widok sortowania wg „trafności”.
+* Zero zbędnego kodu, reklam i śledzenia – czyste działanie w tle.
+* Kompatybilne z przeglądarkami opartymi na Chromium (Chrome, Brave, Edge, Opera).
 
 ---
 
 ### 🛠️ Instalacja w trybie deweloperskim
-1. Pobierz repozytorium jako plik ZIP (`Code -> Download ZIP`) i rozpakuj go na dysku.
-2. Otwórz w przeglądarce stronę rozszerzeń: `chrome://extensions/`.
-3. Włącz przełącznik **Tryb programisty** (Developer mode) w prawym górnym rogu.
-4. Kliknij przycisk **Załaduj rozpakowane** (Load unpacked) i wskaż folder z pobranymi plikami.
+1. Pobierz repozytorium jako ZIP (`Code -> Download ZIP`) i rozpakuj.
+2. Wejdź w przeglądarce pod adres: `chrome://extensions/`.
+3. Włącz **Tryb programisty** w prawym górnym rogu.
+4. Kliknij **Załaduj rozpakowane** i wskaż folder z plikami rozszerzenia.
 
 ---
 
 ### 📄 Licencja
-Kod udostępniany na licencji [MIT](LICENSE).
+[MIT](LICENSE)
